@@ -1,0 +1,17 @@
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\bin\Debug\net6.0-windows\funcionario-cadastro.exe
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\bin\Debug\net6.0-windows\funcionario-cadastro.deps.json
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\bin\Debug\net6.0-windows\funcionario-cadastro.runtimeconfig.json
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\bin\Debug\net6.0-windows\funcionario-cadastro.dll
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\bin\Debug\net6.0-windows\ref\funcionario-cadastro.dll
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\bin\Debug\net6.0-windows\funcionario-cadastro.pdb
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\obj\Debug\net6.0-windows\funcionario-cadastro.csproj.AssemblyReference.cache
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\obj\Debug\net6.0-windows\funcionario_cadastro.Form1.resources
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\obj\Debug\net6.0-windows\funcionario-cadastro.csproj.GenerateResource.cache
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\obj\Debug\net6.0-windows\funcionario-cadastro.GeneratedMSBuildEditorConfig.editorconfig
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\obj\Debug\net6.0-windows\funcionario-cadastro.AssemblyInfoInputs.cache
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\obj\Debug\net6.0-windows\funcionario-cadastro.AssemblyInfo.cs
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\obj\Debug\net6.0-windows\funcionario-cadastro.csproj.CoreCompileInputs.cache
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\obj\Debug\net6.0-windows\funcionario-cadastro.dll
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\obj\Debug\net6.0-windows\ref\funcionario-cadastro.dll
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\obj\Debug\net6.0-windows\funcionario-cadastro.pdb
+C:\treinamento_poo_csharp\funcionario-cadastro\funcionario-cadastro\funcionario-cadastro\obj\Debug\net6.0-windows\funcionario-cadastro.genruntimeconfig.cache

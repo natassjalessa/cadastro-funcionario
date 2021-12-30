@@ -14,7 +14,7 @@ namespace funcionario_cadastro
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             f.nome = txtNome.Text;
-            f.cpf = txtCPF.Text;
+            f.cpf = mskCPF.Text;
             f.salarioBase = double.Parse(txtSalario.Text);
             f.CadastrarFuncionario();
         }
@@ -39,7 +39,7 @@ namespace funcionario_cadastro
         private void btnApresentarGerente_Click(object sender, EventArgs e)
         {
             f.nome = txtNome.Text;
-            f.cpf = txtCPF.Text;
+            f.cpf = mskCPF.Text;
             g.ApresentarSalario(f);
         }
 
@@ -55,7 +55,7 @@ namespace funcionario_cadastro
         private void btnApresentarVendedor_Click(object sender, EventArgs e)
         {
             f.nome = txtNome.Text;
-            f.cpf = txtCPF.Text;
+            f.cpf = mskCPF.Text;
 
             v.ApresentarSalario(f);
         }
@@ -72,7 +72,7 @@ namespace funcionario_cadastro
         private void btnApresentarAtendente_Click(object sender, EventArgs e)
         {
             f.nome = txtNome.Text;
-            f.cpf = txtCPF.Text;
+            f.cpf = mskCPF.Text;
 
             at.ApresentarSalario(f);
         }

@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.txtCPF = new System.Windows.Forms.TextBox();
             this.txtSalario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,6 +51,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtNoturno = new System.Windows.Forms.TextBox();
             this.btnSalarioFinalAtendente = new System.Windows.Forms.Button();
+            this.mskCPF = new System.Windows.Forms.MaskedTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -64,13 +64,6 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(150, 31);
             this.txtNome.TabIndex = 0;
-            // 
-            // txtCPF
-            // 
-            this.txtCPF.Location = new System.Drawing.Point(98, 50);
-            this.txtCPF.Name = "txtCPF";
-            this.txtCPF.Size = new System.Drawing.Size(150, 31);
-            this.txtCPF.TabIndex = 1;
             // 
             // txtSalario
             // 
@@ -204,9 +197,9 @@
             // 
             // btnApresentarVendedor
             // 
-            this.btnApresentarVendedor.Location = new System.Drawing.Point(173, 45);
+            this.btnApresentarVendedor.Location = new System.Drawing.Point(162, 58);
             this.btnApresentarVendedor.Name = "btnApresentarVendedor";
-            this.btnApresentarVendedor.Size = new System.Drawing.Size(147, 31);
+            this.btnApresentarVendedor.Size = new System.Drawing.Size(150, 31);
             this.btnApresentarVendedor.TabIndex = 7;
             this.btnApresentarVendedor.Text = "Apresentar";
             this.btnApresentarVendedor.UseVisualStyleBackColor = true;
@@ -215,7 +208,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 11);
+            this.label5.Location = new System.Drawing.Point(14, 24);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(94, 25);
             this.label5.TabIndex = 6;
@@ -224,16 +217,16 @@
             // 
             // txtComissao
             // 
-            this.txtComissao.Location = new System.Drawing.Point(135, 8);
+            this.txtComissao.Location = new System.Drawing.Point(124, 21);
             this.txtComissao.Name = "txtComissao";
-            this.txtComissao.Size = new System.Drawing.Size(185, 31);
+            this.txtComissao.Size = new System.Drawing.Size(188, 31);
             this.txtComissao.TabIndex = 5;
             // 
             // btnSalarioFinalVendedor
             // 
-            this.btnSalarioFinalVendedor.Location = new System.Drawing.Point(17, 45);
+            this.btnSalarioFinalVendedor.Location = new System.Drawing.Point(6, 58);
             this.btnSalarioFinalVendedor.Name = "btnSalarioFinalVendedor";
-            this.btnSalarioFinalVendedor.Size = new System.Drawing.Size(147, 31);
+            this.btnSalarioFinalVendedor.Size = new System.Drawing.Size(150, 31);
             this.btnSalarioFinalVendedor.TabIndex = 4;
             this.btnSalarioFinalVendedor.Text = "Salario Final";
             this.btnSalarioFinalVendedor.UseVisualStyleBackColor = true;
@@ -255,9 +248,9 @@
             // 
             // btnApresentarAtendente
             // 
-            this.btnApresentarAtendente.Location = new System.Drawing.Point(162, 48);
+            this.btnApresentarAtendente.Location = new System.Drawing.Point(162, 58);
             this.btnApresentarAtendente.Name = "btnApresentarAtendente";
-            this.btnApresentarAtendente.Size = new System.Drawing.Size(147, 31);
+            this.btnApresentarAtendente.Size = new System.Drawing.Size(150, 31);
             this.btnApresentarAtendente.TabIndex = 11;
             this.btnApresentarAtendente.Text = "Apresentar";
             this.btnApresentarAtendente.UseVisualStyleBackColor = true;
@@ -266,7 +259,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(24, 14);
+            this.label6.Location = new System.Drawing.Point(14, 24);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(83, 25);
             this.label6.TabIndex = 10;
@@ -275,26 +268,36 @@
             // 
             // txtNoturno
             // 
-            this.txtNoturno.Location = new System.Drawing.Point(124, 11);
+            this.txtNoturno.Location = new System.Drawing.Point(124, 21);
             this.txtNoturno.Name = "txtNoturno";
-            this.txtNoturno.Size = new System.Drawing.Size(185, 31);
+            this.txtNoturno.Size = new System.Drawing.Size(188, 31);
             this.txtNoturno.TabIndex = 9;
             // 
             // btnSalarioFinalAtendente
             // 
-            this.btnSalarioFinalAtendente.Location = new System.Drawing.Point(6, 48);
+            this.btnSalarioFinalAtendente.Location = new System.Drawing.Point(6, 58);
             this.btnSalarioFinalAtendente.Name = "btnSalarioFinalAtendente";
-            this.btnSalarioFinalAtendente.Size = new System.Drawing.Size(147, 31);
+            this.btnSalarioFinalAtendente.Size = new System.Drawing.Size(150, 31);
             this.btnSalarioFinalAtendente.TabIndex = 8;
             this.btnSalarioFinalAtendente.Text = "Salario Final";
             this.btnSalarioFinalAtendente.UseVisualStyleBackColor = true;
             this.btnSalarioFinalAtendente.Click += new System.EventHandler(this.btnSalarioFinalAtendente_Click);
             // 
+            // mskCPF
+            // 
+            this.mskCPF.Location = new System.Drawing.Point(98, 50);
+            this.mskCPF.Mask = "000,000,000-00";
+            this.mskCPF.Name = "mskCPF";
+            this.mskCPF.Size = new System.Drawing.Size(150, 31);
+            this.mskCPF.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(377, 375);
+            this.Controls.Add(this.mskCPF);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btnBonificacao);
             this.Controls.Add(this.btnCadastrar);
@@ -302,10 +305,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSalario);
-            this.Controls.Add(this.txtCPF);
             this.Controls.Add(this.txtNome);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "CADASTRO ";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -321,7 +323,6 @@
         #endregion
 
         private TextBox txtNome;
-        private TextBox txtCPF;
         private TextBox txtSalario;
         private Label label1;
         private Label label2;
@@ -344,5 +345,6 @@
         private Label label6;
         private TextBox txtNoturno;
         private Button btnSalarioFinalAtendente;
+        private MaskedTextBox mskCPF;
     }
 }

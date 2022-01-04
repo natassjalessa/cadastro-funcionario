@@ -1,0 +1,14 @@
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\bin\Debug\cadastro-funcionario.exe.config
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\bin\Debug\cadastro-funcionario.exe
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\bin\Debug\cadastro-funcionario.pdb
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro-funcionario.csproj.SuggestedBindingRedirects.cache
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro_funcionario.Properties.Resources.resources
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro-funcionario.csproj.GenerateResource.cache
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro-funcionario.csproj.CoreCompileInputs.cache
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro-funcionario.exe
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro-funcionario.pdb
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro_funcionario.frm_Gerente.resources
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro_funcionario.frm_CadastroMDI.resources
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro_funcionario.frm_Vendedor.resources
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro_funcionario.frm_Atendente.resources
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro-funcionario.csproj.AssemblyReference.cache

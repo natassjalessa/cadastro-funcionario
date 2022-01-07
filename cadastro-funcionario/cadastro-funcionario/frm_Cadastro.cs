@@ -15,6 +15,11 @@ namespace cadastro_funcionario
         public frm_CadastroMDI()
         {
             InitializeComponent();
+            gerenteToolStripMenuItem.Enabled = false;
+            atendenteToolStripMenuItem.Enabled = false; 
+            vendedorToolStripMenuItem.Enabled = false;
+            windowsToolStripMenuItem.Enabled = false;
+            desconectarToolStripMenuItem.Enabled = false;
         }
 
         private void gerenteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -60,6 +65,49 @@ namespace cadastro_funcionario
         private void verticalToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.LayoutMdi(System.Windows.Forms.MdiLayout.TileVertical);
+        }
+
+        private void conectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_Login F = new frm_Login();
+            F.ShowDialog();
+
+            if (F.DialogResult == DialogResult.OK)
+            {
+                string senha = F.senha;
+                string login = F.login;
+
+                if (Funcionario.validaSenhaLogin(senha) == true)
+                {
+                    gerenteToolStripMenuItem.Enabled = true;
+                    atendenteToolStripMenuItem.Enabled = true;
+                    vendedorToolStripMenuItem.Enabled = true;
+                    windowsToolStripMenuItem.Enabled = true;
+                    conectarToolStripMenuItem.Enabled = false;
+                    desconectarToolStripMenuItem.Enabled = true;
+
+                    MessageBox.Show($"Bem vindo {login}!", "Messagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show($"Senha inválida!", "Messagem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void desconectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Você deseja realmente se desconectar?", "Conexão",
+               MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+
+                gerenteToolStripMenuItem.Enabled = false;
+                atendenteToolStripMenuItem.Enabled = false;
+                vendedorToolStripMenuItem.Enabled = false;
+                windowsToolStripMenuItem.Enabled = false;
+                conectarToolStripMenuItem.Enabled = true;
+                desconectarToolStripMenuItem.Enabled = false;
+            }
         }
     }
 }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Frm_ValidaCPF2.ico</ApplicationIcon>
+    <ApplicationIcon>Imagem\Frm_ValidaCPF2.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,6 +68,12 @@
     <Compile Include="frm_Gerente.Designer.cs">
       <DependentUpon>frm_Gerente.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Login.Designer.cs">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Vendedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Gerente.resx">
       <DependentUpon>frm_Gerente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Login.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Vendedor.resx">
       <DependentUpon>frm_Vendedor.cs</DependentUpon>
@@ -114,7 +123,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Frm_ValidaCPF2.ico" />
+    <Content Include="Imagem\Frm_ValidaCPF2.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

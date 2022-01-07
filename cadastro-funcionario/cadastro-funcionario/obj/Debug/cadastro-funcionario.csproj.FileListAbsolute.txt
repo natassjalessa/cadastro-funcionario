@@ -11,4 +11,4 @@ C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-fun
 C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro_funcionario.frm_CadastroMDI.resources
 C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro_funcionario.frm_Vendedor.resources
 C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro_funcionario.frm_Atendente.resources
-C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro-funcionario.csproj.AssemblyReference.cache
+C:\treinamento_poo_csharp\funcionario-cadastro\cadastro-funcionario\cadastro-funcionario\obj\Debug\cadastro_funcionario.frm_Login.resources

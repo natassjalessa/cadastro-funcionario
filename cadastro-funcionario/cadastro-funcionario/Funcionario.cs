@@ -43,5 +43,14 @@ namespace cadastro_funcionario
         {
             MessageBox.Show("Cadastro feito com sucesso");
         }
+
+        public static bool validaSenhaLogin(string senha)
+        {
+            if (senha == "curso")
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

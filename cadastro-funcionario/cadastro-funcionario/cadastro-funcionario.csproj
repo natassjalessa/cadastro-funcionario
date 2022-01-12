@@ -49,55 +49,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Atendente.cs" />
-    <Compile Include="frm_Atendente.cs">
+    <Compile Include="Classe\Atendente.cs" />
+    <Compile Include="Forms\frm_Atendente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Atendente.Designer.cs">
+    <Compile Include="Forms\frm_Atendente.Designer.cs">
       <DependentUpon>frm_Atendente.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_Cadastro.cs">
+    <Compile Include="Forms\frm_Cadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Cadastro.Designer.cs">
+    <Compile Include="Forms\frm_Cadastro.Designer.cs">
       <DependentUpon>frm_Cadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_Gerente.cs">
+    <Compile Include="Forms\frm_Gerente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Gerente.Designer.cs">
+    <Compile Include="Forms\frm_Gerente.Designer.cs">
       <DependentUpon>frm_Gerente.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_Login.cs">
+    <Compile Include="Forms\frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Login.Designer.cs">
+    <Compile Include="Forms\frm_Login.Designer.cs">
       <DependentUpon>frm_Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_Vendedor.cs">
+    <Compile Include="Forms\frm_Vendedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Vendedor.Designer.cs">
+    <Compile Include="Forms\frm_Vendedor.Designer.cs">
       <DependentUpon>frm_Vendedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funcionario.cs" />
-    <Compile Include="Gerente.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Classe\Funcionario.cs" />
+    <Compile Include="Classe\Gerente.cs" />
+    <Compile Include="Classe\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vendedor.cs" />
-    <EmbeddedResource Include="frm_Atendente.resx">
+    <Compile Include="Classe\Vendedor.cs" />
+    <EmbeddedResource Include="Forms\frm_Atendente.resx">
       <DependentUpon>frm_Atendente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_Cadastro.resx">
+    <EmbeddedResource Include="Forms\frm_Cadastro.resx">
       <DependentUpon>frm_Cadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_Gerente.resx">
+    <EmbeddedResource Include="Forms\frm_Gerente.resx">
       <DependentUpon>frm_Gerente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_Login.resx">
+    <EmbeddedResource Include="Forms\frm_Login.resx">
       <DependentUpon>frm_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_Vendedor.resx">
+    <EmbeddedResource Include="Forms\frm_Vendedor.resx">
       <DependentUpon>frm_Vendedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -120,7 +120,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Forms\App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Imagem\Frm_ValidaCPF2.ico" />

@@ -85,7 +85,7 @@
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(12, 144);
+            this.btnOk.Location = new System.Drawing.Point(60, 144);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 33);
             this.btnOk.TabIndex = 5;
